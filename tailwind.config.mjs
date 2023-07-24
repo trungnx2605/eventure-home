@@ -1,6 +1,5 @@
-/** @type {import('tailwindcss').Config} */
-const plugin = require("tailwindcss/plugin");
-const { fontFamily } = require("tailwindcss/defaultTheme");
+import plugin from "tailwindcss/plugin";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const screens = {
   xxs: "320px",
@@ -17,12 +16,16 @@ const colors = {
     1: "#857DB1",
     2: "#9E99CE",
     3: "#BBB2E9",
+    200: "#B590EC",
+    0: "#F8F5FF",
   },
   secondary: {
     1: "#FFBC99",
     2: "#CABDFF",
     3: "#8FDDFF",
   },
+
+  blue: { 500: "#3300CC" },
   neutral: {
     default: "#111315",
     200: "#777E90",
@@ -39,6 +42,14 @@ const colors = {
     200: "#E8ECEF",
     100: "#F7F9FC",
   },
+  pink: {
+    0: "#F8F5FF",
+    100: "#DAC6F5",
+    200: "#9747FF",
+    300: "#7E53C7",
+    400: "#4A2790",
+  },
+  green: "#1ED760",
 };
 
 const gradient = {
@@ -215,7 +226,8 @@ const theme = {
   },
 };
 
-module.exports = {
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
