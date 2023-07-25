@@ -3,10 +3,10 @@ import Header from "../../layouts/header";
 
 const Home = () => {
   return (
-    <>
+    <div className="flex flex-col h-screen relative bg-neutral">
       <Header />
       <Footer />
-    </>
+    </div>
   );
 };
 

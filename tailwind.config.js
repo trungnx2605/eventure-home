@@ -26,7 +26,8 @@ const colors = {
     3: "#8FDDFF",
   },
   neutral: {
-    default: "#111315",
+    DEFAULT: "#111315",
+    100: "#1A1D1F",
     200: "#777E90",
     300: "#33383F",
     400: "6F767E",
@@ -35,7 +36,6 @@ const colors = {
     700: "#FCFCFC",
   },
   grey: {
-    400:"#1A1D1F",
     600: "#2E3A59",
     500: "#8F9BB3",
     300: "#E4E9F2",

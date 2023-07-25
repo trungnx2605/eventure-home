@@ -1,28 +1,42 @@
+import { Link } from "react-router-dom";
+
+const footerItems = [
+  {
+    name: "Resources",
+    href: "/",
+  },
+  {
+    name: "Featured",
+    href: "/",
+  },
+  {
+    name: "Company",
+    href: "/",
+  },
+];
 const Footer = () => {
   return (
-    <>
-      <div className="flex bg-grey-400  w-full">
-        <div className=" flex w-1/2 mx-10 my-5">
-          <img
-            width={160}
-            height={45}
-            src="src/assets/images/logo-Footer.svg"
-            alt="logo-Footer"
-          />
-        </div>
-        <div className="w-1/2 lg:flex justify-center items-center hidden ">
-          <a href="" className="text-grey-100 py-2 px-8 eventure-label-2">
-            Resources
-          </a>
-          <a href="" className="text-grey-100 py-2 px-8 eventure-label-2">
-            Featured
-          </a>
-          <a href="" className="text-grey-100 py-2 px-8 eventure-label-2">
-            Company
-          </a>
+    <div className="flex flex-col md:flex-row md:items-center justify-between bg-neutral-100 w-full px-5 py-5 md:px-14 gap-y-4">
+      <img
+        width={160}
+        height={45}
+        src="src/assets/images/logo-Footer.svg"
+        alt="logo-Footer"
+      />
+      <div className="flex items-center justify-end ">
+        <div className="grid grid-cols-12 w-full md:flex md:gap-x-20 gap-y-4">
+          {footerItems.map((item, index) => (
+            <Link
+              key={index}
+              to={item.href}
+              className="col-span-6 xxs:col-span-4 text-grey-100 eventure-label-5"
+            >
+              {item.name}
+            </Link>
+          ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -6,6 +6,7 @@ const screens = {
   xs: "444px",
   sm: "600px",
   md: "900px",
+  smlg: "1000px",
   lg: "1200px",
   xl: "1536px",
 };
@@ -16,18 +17,15 @@ const colors = {
     1: "#857DB1",
     2: "#9E99CE",
     3: "#BBB2E9",
-    200: "#B590EC",
-    0: "#F8F5FF",
   },
   secondary: {
     1: "#FFBC99",
     2: "#CABDFF",
     3: "#8FDDFF",
   },
-
-  blue: { 500: "#3300CC" },
   neutral: {
-    default: "#111315",
+    DEFAULT: "#111315",
+    100: "#1A1D1F",
     200: "#777E90",
     300: "#33383F",
     400: "6F767E",
@@ -42,14 +40,6 @@ const colors = {
     200: "#E8ECEF",
     100: "#F7F9FC",
   },
-  pink: {
-    0: "#F8F5FF",
-    100: "#DAC6F5",
-    200: "#9747FF",
-    300: "#7E53C7",
-    400: "#4A2790",
-  },
-  green: "#1ED760",
 };
 
 const gradient = {
@@ -126,6 +116,12 @@ const typography = plugin(({ addComponents }) => {
       fontWeight: 700,
       fontSize: "12px",
       lineHeight: "18px",
+      fontFamily: "Poppins",
+    },
+    ".eventure-label-5": {
+      fontWeight: 600,
+      fontSize: "16px",
+      lineHeight: "24px",
       fontFamily: "Poppins",
     },
     /* eventure body */
