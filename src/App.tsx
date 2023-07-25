@@ -1,5 +1,7 @@
+import Home from "./pages/home";
+
 function App() {
-  return <div className=" eventure-headline-1 text-gradient bg-gradient-primary">Eventure</div>;
+  return <Home />;
 }
 
 export default App;
