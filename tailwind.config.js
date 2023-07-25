@@ -35,6 +35,7 @@ const colors = {
     700: "#FCFCFC",
   },
   grey: {
+    400:"#1A1D1F",
     600: "#2E3A59",
     500: "#8F9BB3",
     300: "#E4E9F2",
@@ -117,6 +118,12 @@ const typography = plugin(({ addComponents }) => {
       fontWeight: 700,
       fontSize: "12px",
       lineHeight: "18px",
+      fontFamily: "Poppins",
+    },
+    ".eventure-label-5": {
+      fontWeight: 600,
+      fontSize: "16px",
+      lineHeight: "24px",
       fontFamily: "Poppins",
     },
     /* eventure body */
