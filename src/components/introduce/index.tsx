@@ -4,7 +4,7 @@ const Introduce = () => {
   return (
     <div className="flex flex-col items-center py-16 bg-neutral">
       <div className="flex flex-col ">
-        <div className="flex items-center gap-x-6 eventure-headline-1 text-[white]">
+        <div className="flex items-center gap-x-6 eventure-headline-1 text-[white] md:flex-col">
           <div className="relative">
             <span className="text-gradient bg-gradient-primary ">Eventure</span>
             <VoiceIcon
