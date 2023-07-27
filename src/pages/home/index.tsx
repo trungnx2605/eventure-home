@@ -1,10 +1,10 @@
-import Introduce from "../../components/introduce";
-import Footer from "../../layouts/footer";
-import Header from "../../layouts/header";
+import Introduce from "../../components/Introduce";
+import Footer from "../../layouts/Footer";
+import Header from "../../layouts/Header";
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen relative bg-neutral">
+    <div className="flex flex-col min-h-screen w-screen max-w-screen overflow-hidden relative bg-neutral">
       <Header />
       <Introduce />
       <Footer />

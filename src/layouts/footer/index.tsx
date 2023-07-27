@@ -16,14 +16,14 @@ const footerItems = [
 ];
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row md:items-center justify-between bg-neutral-100 w-full px-5 py-5 md:px-14 gap-y-4">
+    <div className="flex flex-col md:flex-row md:items-center justify-between bg-neutral-100 w-screen max-w-screen overflow-hidden px-5 py-5 md:px-14 gap-y-4">
       <img
         width={160}
         height={45}
         src="src/assets/images/logo-Footer.svg"
         alt="logo-Footer"
       />
-      <div className="flex items-center justify-end ">
+      <div className="flex items-center justify-end">
         <div className="grid grid-cols-12 w-full md:flex md:gap-x-20 gap-y-4">
           {footerItems.map((item, index) => (
             <Link
