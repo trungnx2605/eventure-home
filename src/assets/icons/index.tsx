@@ -70,7 +70,7 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="Voice" clip-path="url(#clip0_1_814)">
+    <g id="Voice" clipPath="url(#clip0_1_814)">
       <g id="Group 424">
         <g id="Vector">
           <path
@@ -113,8 +113,8 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
         y2="25.0797"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#7684FF" />
-        <stop offset="0.807292" stop-color="#FF98E2" />
+        <stop stopColor="#7684FF" />
+        <stop offset="0.807292" stopColor="#FF98E2" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1_814"
@@ -124,8 +124,8 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
         y2="7.49189"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.0993526" stop-color="#7684FF" />
-        <stop offset="1" stop-color="#FF98E2" />
+        <stop offset="0.0993526" stopColor="#7684FF" />
+        <stop offset="1" stopColor="#FF98E2" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_1_814"
@@ -135,8 +135,8 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
         y2="24.7278"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#7684FF" />
-        <stop offset="0.807292" stop-color="#FF98E2" />
+        <stop stopColor="#7684FF" />
+        <stop offset="0.807292" stopColor="#FF98E2" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_1_814"
@@ -146,8 +146,8 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
         y2="16.6925"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.0993526" stop-color="#7684FF" />
-        <stop offset="1" stop-color="#FF98E2" />
+        <stop offset="0.0993526" stopColor="#7684FF" />
+        <stop offset="1" stopColor="#FF98E2" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_1_814"
@@ -157,8 +157,8 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
         y2="24.027"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#7684FF" />
-        <stop offset="0.807292" stop-color="#FF98E2" />
+        <stop stopColor="#7684FF" />
+        <stop offset="0.807292" stopColor="#FF98E2" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_1_814"
@@ -168,8 +168,8 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
         y2="20.6352"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.0993526" stop-color="#7684FF" />
-        <stop offset="1" stop-color="#FF98E2" />
+        <stop offset="0.0993526" stopColor="#7684FF" />
+        <stop offset="1" stopColor="#FF98E2" />
       </linearGradient>
       <clipPath id="clip0_1_814">
         <rect width="30" height="30" fill="white" />
