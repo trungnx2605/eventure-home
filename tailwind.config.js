@@ -96,6 +96,13 @@ const typography = plugin(({ addComponents }) => {
       fontFamily: "Poppins",
       letterSpacing: "-0.02em",
     },
+    ".eventure-headline-7": {
+      fontWeight: 600,
+      fontSize: "28px",
+      lineHeight: "32px",
+      fontFamily: "Poppins",
+      letterSpacing: "-0.02em",
+    },
     /* eventure label */
     ".eventure-label-1": {
       fontWeight: 600,
