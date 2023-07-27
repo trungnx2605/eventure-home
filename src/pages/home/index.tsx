@@ -1,7 +1,7 @@
-import Introduce from "../../components/introduce";
-import Network from "../../components/network";
-import Footer from "../../layouts/footer";
-import Header from "../../layouts/header";
+import Introduce from "../../components/Introduce";
+import Network from "../../components/Networking";
+import Footer from "../../layouts/Footer";
+import Header from "../../layouts/Header";
 
 const Home = () => {
   return (
