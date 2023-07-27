@@ -1,4 +1,4 @@
-const Feater = () => {
+const Features = () => {
   return (
     <div className="py-16 md:py-10 overflow-hidden">
       <div className="flex flex-row md:justify-center tems-center text-grey-100 md:eventure-headline-3 eventure-headline-7 px-5">
@@ -128,4 +128,4 @@ const Feater = () => {
     </div>
   );
 };
-export default Feater;
+export default Features;
