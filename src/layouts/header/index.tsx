@@ -22,7 +22,7 @@ const Header = () => {
   const [showMenuMobile, setShowMenuMobile] = useState(false);
 
   return (
-    <div className="bg-neutral-100 flex items-center justify-between w-full h-[72px] max-h-[72px] px-5 md:h-20 md:max-h-20 md:px-14">
+    <div className="bg-neutral-100 flex items-center justify-between w-screen h-[72px] max-h-[72px] px-5 md:h-20 md:max-h-20 md:px-14 fixed z-20">
       <div className="flex items-center lg:gap-x-20 gap-x-4">
         <Link
           to={"/"}
@@ -35,7 +35,7 @@ const Header = () => {
             className="object-contain min-w-full"
           />
         </Link>
-        <div className="md:flex justify-center items-center hidden ">
+        <div className="md:flex justify-center items-center hidden">
           {headerItems.map((item, index) => (
             <Link
               to={item.href}
@@ -72,8 +72,8 @@ const Header = () => {
         </div>
       </div>
       {showMenuMobile && (
-        <div className="absolute top-[72px] left-0 right-0 bottom-0 flex flex-col px-5 bg-neutral md:hidden slide-right z-50">
-          <div className="flex flex-col justify-center md:hidden py-12">
+        <div className="absolute top-[72px] left-0 right-0 bottom-0 flex flex-col bg-neutral md:hidden slide-right z-50 h-screen">
+          <div className="flex flex-col justify-center md:hidden py-12 bg-neutral px-5">
             {headerItems.map((item, index) => (
               <Link
                 to={item.href}
@@ -88,7 +88,7 @@ const Header = () => {
               </Link>
             ))}
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center px-5">
             <button className="md:hidden flex border border-primary-1 rounded-lg justify-center items-center px-4 py-[9px] gap-x-2 whitespace-nowrap hover:opacity-80 flex-1">
               <UserIcon />
               <p className="text-primary-3 eventure-button-1-semibold items-center">
@@ -99,7 +99,7 @@ const Header = () => {
               Attend an Event
             </button>
           </div>
-          <div className="flex items-center justify-center w-full mt-8">
+          <div className="flex items-center justify-center w-full mt-8 px-5">
             <button className="text-center eventure-button-1-bold text-neutral bg-neutral-500 w-full py-3 rounded-lg hover:opacity-80">
               BOOK A DEMO
             </button>
