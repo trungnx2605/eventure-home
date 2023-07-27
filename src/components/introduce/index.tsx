@@ -2,29 +2,33 @@ import { VoiceIcon } from "../../assets/icons";
 
 const Introduce = () => {
   return (
-    <div className="flex flex-col items-center py-16 bg-neutral">
-      <div className="flex flex-col ">
-        <div className="flex items-center gap-x-6 eventure-headline-1 text-[white] md:flex-col">
-          <div className="relative">
-            <span className="text-gradient bg-gradient-primary ">Eventure</span>
+    <div className="flex flex-col items-center py-16 bg-neutral max-[440px]:px-5">
+      <div className="flex flex-col">
+        <div className="flex items-center gap-x-6 eventure-headline-1 text-[white] max-[950px]:flex-col">
+          <div className="relative max-[440px]:eventure-headline-3">
+            <span className="text-gradient bg-gradient-primary">Eventure</span>
             <VoiceIcon
               width={30}
               height={30}
-              className="text-secondary-2 absolute -top-2 -right-4"
+              className="text-secondary-2 absolute -top-2 -right-7"
             />
           </div>
-          <p>The Ultimate Virtual </p>
+          <p className="max-[440px]:eventure-headline-3 ml-5 sm:flex justify-center text-center ">
+            The Ultimate Virtual
+          </p>
         </div>
-        <div className="flex justify-center items-center">
-          <p className="eventure-headline-1 text-[white]">Event Platform</p>
+        <div className="flex justify-center items-center sm:flex text-center ">
+          <p className="eventure-headline-1 text-[white]  max-[440px]:eventure-headline-3">
+            Event Platform
+          </p>
         </div>
       </div>
-      <div className="mt-6 text-sm flex flex-col items-center">
-        <p className="text-[white] eventure-caption-3">
+      <div className="mt-6 text-sm flex flex-col items-center md:flex justify-center text-center ">
+        <p className="text-[white] eventure-caption-3  max-[440px]:eventure-caption-1">
           Host engaging conferences, webinars and events with advanced features
           and seamless user
         </p>
-        <p className="text-[white] eventure-caption-3">
+        <p className="text-[white] eventure-caption-3 max-[440px]:eventure-caption-1">
           interface that closely replicate in-person experiences.
         </p>
       </div>
@@ -39,5 +43,4 @@ const Introduce = () => {
     </div>
   );
 };
-
 export default Introduce;
