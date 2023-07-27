@@ -72,7 +72,7 @@ const Header = () => {
         </div>
       </div>
       {showMenuMobile && (
-        <div className="absolute top-[72px] left-0 right-0 bottom-0 flex flex-col px-5 bg-neutral md:hidden slide-right">
+        <div className="absolute top-[72px] left-0 right-0 bottom-0 flex flex-col px-5 bg-neutral md:hidden slide-right z-50">
           <div className="flex flex-col justify-center md:hidden py-12">
             {headerItems.map((item, index) => (
               <Link

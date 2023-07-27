@@ -38,6 +38,7 @@ const colors = {
   grey: {
     600: "#2E3A59",
     500: "#8F9BB3",
+    400: "#6F767E",
     300: "#E4E9F2",
     200: "#E8ECEF",
     100: "#F7F9FC",
@@ -70,7 +71,7 @@ const typography = plugin(({ addComponents }) => {
     ".eventure-headline-3": {
       fontWeight: 600,
       fontSize: "48px",
-      lineHeight: "56px",
+      lineHeight: "72px",
       fontFamily: "Poppins",
       letterSpacing: "-0.02em",
     },
