@@ -1,5 +1,6 @@
-import Features from "../../components/Features";
 import Introduce from "../../components/Introduce";
+import Network from "../../components/Networking";
+import Features from "../../components/Features";
 import Footer from "../../layouts/Footer";
 import Header from "../../layouts/Header";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Introduce />
       <Features />
+      <Network />
       <Footer />
     </div>
   );
