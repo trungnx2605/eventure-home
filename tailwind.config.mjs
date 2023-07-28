@@ -6,7 +6,6 @@ const screens = {
   xs: "444px",
   sm: "600px",
   md: "900px",
-  smlg: "1000px",
   lg: "1200px",
   xl: "1536px",
 };
@@ -28,7 +27,7 @@ const colors = {
     100: "#1A1D1F",
     200: "#777E90",
     300: "#33383F",
-    400: "6F767E",
+    400: "#6F767E",
     500: "#EFEFEF",
     600: "#757185",
     700: "#FCFCFC",
@@ -36,6 +35,7 @@ const colors = {
   grey: {
     600: "#2E3A59",
     500: "#8F9BB3",
+    400: "#6F767E",
     300: "#E4E9F2",
     200: "#E8ECEF",
     100: "#F7F9FC",
@@ -124,6 +124,19 @@ const typography = plugin(({ addComponents }) => {
       lineHeight: "24px",
       fontFamily: "Poppins",
     },
+    ".eventure-label-6": {
+      fontWeight: 700,
+      fontSize: "16px",
+      lineHeight: "24px",
+      fontFamily: "Poppins",
+    },
+    ".eventure-label-7": {
+      fontWeight: 700,
+      fontSize: "14px",
+      lineHeight: "21px",
+      fontFamily: "Poppins",
+    },
+
     /* eventure body */
     ".eventure-body": {
       fontWeight: 400,
@@ -192,6 +205,12 @@ const typography = plugin(({ addComponents }) => {
       fontSize: "20px",
       lineHeight: "24px",
       fontFamily: "Poppins",
+    },
+    ".eventure-caption-4-sora": {
+      fontWeight: 400,
+      fontSize: "16px",
+      lineHeight: "24px",
+      fontFamily: "Sora",
     },
 
     ".eventure-button-1-bold": {

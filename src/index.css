@@ -65,6 +65,13 @@
   font-style: normal;
 }
 
+@layer components {
+  .community-info {
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+  }
+}
+
 @layer utilities {
   .text-gradient {
     background-clip: text !important;

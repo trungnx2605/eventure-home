@@ -177,3 +177,35 @@ export const VoiceIcon = ({ width = 30, height = 30, className = "" }) => (
     </defs>
   </svg>
 );
+
+export const ArrowLeftIcon = ({ width = 19, height = 16, className = "" }) => (
+  <svg
+    width={width}
+    height={height}
+    className={className}
+    viewBox="0 0 19 16"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M8.70711 13.7929C9.09763 14.1834 9.09763 14.8166 8.70711 15.2071C8.31658 15.5976 7.68342 15.5976 7.29289 15.2071L1.5 9.41421C0.718954 8.63317 0.718952 7.36684 1.5 6.58579L7.29289 0.792894C7.68342 0.402369 8.31658 0.402369 8.70711 0.792894C9.09763 1.18342 9.09763 1.81658 8.70711 2.20711L3.91422 7H18C18.5523 7 19 7.44772 19 8C19 8.55229 18.5523 9 18 9H3.91421L8.70711 13.7929Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
+export const ArrowRightIcon = ({ width = 19, height = 16, className = "" }) => (
+  <svg
+    width={width}
+    height={height}
+    className={className}
+    viewBox="0 0 19 16"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M10.2929 13.7929C9.90237 14.1834 9.90237 14.8166 10.2929 15.2071C10.6834 15.5976 11.3166 15.5976 11.7071 15.2071L17.5 9.41421C18.281 8.63317 18.281 7.36684 17.5 6.58579L11.7071 0.792894C11.3166 0.402369 10.6834 0.402369 10.2929 0.792894C9.90237 1.18342 9.90237 1.81658 10.2929 2.20711L15.0858 7H1C0.447715 7 0 7.44772 0 8C0 8.55229 0.447715 9 1 9H15.0858L10.2929 13.7929Z"
+      fill="currentColor"
+    />
+  </svg>
+);

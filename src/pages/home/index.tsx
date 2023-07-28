@@ -1,3 +1,4 @@
+import Community from "../../components/Community";
 import Introduce from "../../components/Introduce";
 import Network from "../../components/Networking";
 import Features from "../../components/Features";
@@ -11,6 +12,7 @@ const Home = () => {
       <Introduce />
       <Features />
       <Network />
+      <Community />
       <Footer />
     </div>
   );
