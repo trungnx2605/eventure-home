@@ -133,6 +133,13 @@ const typography = plugin(({ addComponents }) => {
       lineHeight: "24px",
       fontFamily: "Poppins",
     },
+    ".eventure-label-7": {
+      fontWeight: 700,
+      fontSize: "14px",
+      lineHeight: "21px",
+      fontFamily: "Poppins",
+    },
+
     /* eventure body */
     ".eventure-body": {
       fontWeight: 400,

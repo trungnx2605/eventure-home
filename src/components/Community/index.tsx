@@ -1,4 +1,4 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { CommunityItemType } from "../../types";
 import "swiper/css";
 import "swiper/css/virtual";
@@ -37,8 +37,32 @@ const CommunityItems: CommunityItemType[] = [
 ];
 
 const Community = () => {
+  const SwiperButtonNext = () => {
+    const swiper = useSwiper();
+    return (
+      <button
+        className="flex items-center justify-center w-12 h-12 rounded-full cursor-pointer border border-primary-3 bg-primary-3 hover:opacity-80"
+        onClick={() => swiper.slideNext()}
+      >
+        <ArrowRightIcon className="text-neutral-400" />
+      </button>
+    );
+  };
+
+  const SwiperButtonPrev = () => {
+    const swiper = useSwiper();
+    return (
+      <button
+        className="flex items-center justify-center w-12 h-12 rounded-full cursor-pointer hover:opacity-80 border border-neutral-600 bg-neutral "
+        onClick={() => swiper.slidePrev()}
+      >
+        <ArrowLeftIcon className="text-[white]" />
+      </button>
+    );
+  };
+
   return (
-    <div className="flex flex-col w-full items-center relative pt-[70px] pb-[50px]">
+    <div className="flex flex-col w-full md:items-center relative pt-[70px] pb-[50px]">
       <img
         src="src/assets/images/bg-ellipse.png"
         alt=""
@@ -54,44 +78,49 @@ const Community = () => {
         alt=""
         className="absolute top-0 right-[12%] translate-x-[12%]"
       />
-      <p className=" eventure-label-6 text-gradient bg-gradient-third uppercase pt-[30px]">
+      <p className="md:eventure-label-6 eventure-label-7 text-gradient bg-gradient-third uppercase pt-[30px] px-5 md:px-0">
         ready to get started
       </p>
-      <p className="eventure-headline-3 text-[white] mt-2">
+      <p className="eventure-headline-3 text-[white] mt-2 hidden md:flex">
         What the community is saying
+      </p>
+      <p className="eventure-headline-6 text-[white] mt-2 md:hidden px-5">
+        What the
+      </p>
+      <p className="eventure-headline-6 text-[white] md:hidden px-5">
+        community is saying
       </p>
       <Swiper
         modules={[Virtual]}
         spaceBetween={32}
         virtual
-        slidesPerView={2}
         centeredSlidesBounds
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          740: {
+            slidesPerView: 3,
+          },
+        }}
         loop
         loopPreventsSliding
-        className="!flex !flex-1 !px-[60px] !mx-0 !items-center !justify-center !max-w-full pt-[88px] pb-[56px] "
+        className="!flex !flex-1 !flex-col !px-[60px] md:!mx-0 !items-center !justify-center !max-w-full pt-[54px] md:pt-[88px] pb-[56px]"
       >
         {CommunityItems?.map((item, index: number) => (
           <SwiperSlide
             key={index}
             virtualIndex={index}
-            className="!w-fit !flex !justify-center "
+            className="!w-fit !flex !justify-center !ml-4"
           >
             <CommunityItem data={item} />
           </SwiperSlide>
         ))}
+        <div className="flex items-center justify-center gap-x-6 mt-14">
+          <SwiperButtonPrev />
+          <SwiperButtonNext />
+        </div>
       </Swiper>
-      <div className="flex items-center justify-center gap-x-6">
-        <button className="flex items-center justify-center w-12 h-12 rounded-full cursor-pointer border border-neutral-600 bg-dvnmfg890lk;'
-        ;
-        / j234  .jkl;'
-        e
-          neutral hover:opacity-80">
-          <ArrowLeftIcon className="text-neutral-400" />
-        </button>
-        <button className="flex items-center justify-center w-12 h-12 rounded-full cursor-pointer hover:opacity-80 border border-primary-3 bg-primary-3">
-          <ArrowRightIcon className="text-[white]" />
-        </button>
-      </div>
     </div>
   );
 };
