@@ -4,6 +4,9 @@ import Network from "../../components/Networking";
 import Features from "../../components/Features";
 import Footer from "../../layouts/Footer";
 import Header from "../../layouts/Header";
+import Event from "../../components/Event";
+import Sponsor from "../../components/Sponsor";
+import UpComing from "../../components/Upcoming";
 
 const Home = () => {
   return (
@@ -12,7 +15,10 @@ const Home = () => {
       <Introduce />
       <Features />
       <Network />
+      <Sponsor />
+      <UpComing />
       <Community />
+      <Event />
       <Footer />
     </div>
   );

@@ -22,7 +22,7 @@ const Header = () => {
   const [showMenuMobile, setShowMenuMobile] = useState(false);
 
   return (
-    <div className="bg-neutral-100 flex items-center justify-between w-screen h-[72px] max-h-[72px] px-5 md:h-20 md:max-h-20 md:px-14 fixed z-20">
+    <div className="bg-neutral-100 flex items-center justify-between w-screen h-[72px] max-h-[72px] px-5 md:h-20 md:max-h-20 md:px-14 fixed z-50">
       <div className="flex items-center lg:gap-x-20 gap-x-4">
         <Link
           to={"/"}

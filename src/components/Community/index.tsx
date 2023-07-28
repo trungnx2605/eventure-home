@@ -66,17 +66,17 @@ const Community = () => {
       <img
         src="src/assets/images/bg-ellipse.png"
         alt=""
-        className="absolute top-0 left-[50%] translate-x-[-50%]"
+        className="absolute top-0 left-[50%] translate-x-[-50%] hidden md:flex"
       />
       <img
         src="src/assets/images/cmnt-circle-color-left.png"
         alt=""
-        className="absolute top-[6%] left-[20%] translate-x-[-20%]"
+        className="absolute top-[6%] left-[20%] translate-x-[-20%] hidden md:flex"
       />
       <img
         src="src/assets/images/cmnt-circle-color-right.png"
         alt=""
-        className="absolute top-0 right-[12%] translate-x-[12%]"
+        className="absolute top-0 right-[12%] translate-x-[12%] hidden md:flex"
       />
       <p className="md:eventure-label-6 eventure-label-7 text-gradient bg-gradient-third uppercase pt-[30px] px-5 md:px-0">
         ready to get started
@@ -105,18 +105,18 @@ const Community = () => {
         }}
         loop
         loopPreventsSliding
-        className="!flex !flex-1 !flex-col !px-[60px] md:!mx-0 !items-center !justify-center !max-w-full pt-[54px] md:pt-[88px] pb-[56px]"
+        className="!flex !flex-1 !flex-col px-4 md:!px-[60px] md:!mx-0 !items-center !justify-center !max-w-full pt-[54px] md:pt-[88px] pb-[56px]"
       >
         {CommunityItems?.map((item, index: number) => (
           <SwiperSlide
             key={index}
             virtualIndex={index}
-            className="!w-fit !flex !justify-center !ml-4"
+            className="xs:!w-fit !w-full !flex !justify-center !ml-4"
           >
             <CommunityItem data={item} />
           </SwiperSlide>
         ))}
-        <div className="flex items-center justify-center gap-x-6 mt-14">
+        <div className="flex items-center justify-center gap-x-6 mt-[70px]">
           <SwiperButtonPrev />
           <SwiperButtonNext />
         </div>
