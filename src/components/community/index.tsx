@@ -5,11 +5,11 @@ import "swiper/css/virtual";
 
 import { Virtual } from "swiper/modules";
 import CommunityItem from "./community-item";
-import { ArrowLeftIcon, ArrowRightIcon } from "../../assets_home/icons";
+import { ArrowLeftIcon, ArrowRightIcon } from "../../assets/icons";
 
 const CommunityItems: CommunityItemType[] = [
   {
-    img: "src/assets_home/images/community-img1.png",
+    img: "src/assets/images/community-img1.png",
     name: "Jane Smith",
     position: "UX Designer",
     descriptions: [
@@ -18,7 +18,7 @@ const CommunityItems: CommunityItemType[] = [
     ],
   },
   {
-    img: "src/assets_home/images/community-img3.png",
+    img: "src/assets/images/community-img3.png",
     name: "Olivia Amelia",
     position: "Product Owner",
     descriptions: [
@@ -27,7 +27,7 @@ const CommunityItems: CommunityItemType[] = [
     ],
   },
   {
-    img: "src/assets_home/images/community-img2.png",
+    img: "src/assets/images/community-img2.png",
     name: "Matthew Olaoluwa",
     position: "UX Designer",
     descriptions: [
@@ -64,17 +64,17 @@ const Community = () => {
   return (
     <div className="flex flex-col w-full md:items-center relative pt-[70px] pb-[50px]">
       <img
-        src="src/assets_home/images/bg-ellipse.png"
+        src="src/assets/images/bg-ellipse.png"
         alt=""
         className="absolute top-0 left-[50%] translate-x-[-50%] hidden md:flex"
       />
       <img
-        src="src/assets_home/images/cmnt-circle-color-left.png"
+        src="src/assets/images/cmnt-circle-color-left.png"
         alt=""
         className="absolute top-[6%] left-[20%] translate-x-[-20%] hidden md:flex"
       />
       <img
-        src="src/assets_home/images/cmnt-circle-color-right.png"
+        src="src/assets/images/cmnt-circle-color-right.png"
         alt=""
         className="absolute top-0 right-[12%] translate-x-[12%] hidden md:flex"
       />
