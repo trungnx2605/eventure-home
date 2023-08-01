@@ -3,32 +3,32 @@ const Sponsor = () => {
     <div className="flex flex-col w-full relative md:mt-[-300px] pb-16 lg:pb-0">
       <div className="relative">
         <img
-          src="src/assets/images/sponsor-bg.png"
+          src="src/assets_home/images/sponsor-bg.png"
           alt=""
           className="relative z-20 hidden md:flex"
         />
         <img
-          src="src/assets/images/sponsor-rectangle.png"
+          src="src/assets_home/images/sponsor-rectangle.png"
           alt=""
           className="absolute top-[20%] lg:top-1/4 w-full px-16 z-0 hidden md:flex"
         />
         <img
-          src="src/assets/images/sponsor-ellipse.png"
+          src="src/assets_home/images/sponsor-ellipse.png"
           alt=""
           className="absolute top-1/2 left-1/2 -translate-y-1/3 -translate-x-1/2 z-10 hidden md:flex"
         />
         <img
-          src="src/assets/images/sponsor-bg-mb.png"
+          src="src/assets_home/images/sponsor-bg-mb.png"
           alt=""
           className="md:hidden w-full relative z-20"
         />
         <img
-          src="src/assets/images/sponsor-rectangle-mb.png"
+          src="src/assets_home/images/sponsor-rectangle-mb.png"
           alt=""
           className="md:hidden w-full absolute top-[10%] sm:top-[16%] z-10 px-5"
         />
         <img
-          src="src/assets/images/sponsor-ellipse-mb.png"
+          src="src/assets_home/images/sponsor-ellipse-mb.png"
           alt=""
           className="md:hidden w-full absolute top-0 z-15"
         />

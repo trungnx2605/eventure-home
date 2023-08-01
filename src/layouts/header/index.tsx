@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CloseIcon, MenuIcon, UserIcon } from "../../assets/icons";
+import { CloseIcon, MenuIcon, UserIcon } from "../../assets_home/icons";
 import { useState } from "react";
 import clsx from "clsx";
 
@@ -30,7 +30,7 @@ const Header = () => {
           className="flex items-center w-[144px] md:w-40 cursor-pointer"
         >
           <img
-            src="src/assets/images/logo-white.svg"
+            src="src/assets_home/images/logo-white.svg"
             alt="logo-white"
             className="object-contain min-w-full"
           />

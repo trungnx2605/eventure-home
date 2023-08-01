@@ -1,30 +1,30 @@
-import { VoiceIcon } from "../../assets/icons";
+import { VoiceIcon } from "../../assets_home/icons";
 
 const Introduce = () => {
   return (
     <div className="flex flex-col items-center pt-32 pb-16 bg-neutral md:px-16 relative overflow-hidden">
       <img
-        src="src/assets/images/introduce-overlay.png"
+        src="src/assets_home/images/introduce-overlay.png"
         alt="img"
         className="absolute top-0 left-0 right-0 max-h-full w-full hidden md:flex"
       />
       <img
-        src="src/assets/images/introduce-gradient.png"
+        src="src/assets_home/images/introduce-gradient.png"
         alt="img"
         className="absolute top-16 left-1/2 -translate-x-1/2 z-0 opacity-50 hidden md:flex"
       />
       <img
-        src="src/assets/images/introduce-ellipse.png"
+        src="src/assets_home/images/introduce-ellipse.png"
         alt="img"
         className="absolute top-16 left-1/2 -translate-x-1/2 z-0 hidden md:flex"
       />
       <img
-        src="src/assets/images/introduce-gradient-mb.png"
+        src="src/assets_home/images/introduce-gradient-mb.png"
         alt="img"
         className="absolute top-1/2 -translate-y-1/4 left-0 w-full right-0 z-0 opacity-30 md:hidden flex"
       />
       <img
-        src="src/assets/images/introduce-ellipse-mb.png"
+        src="src/assets_home/images/introduce-ellipse-mb.png"
         alt="img"
         className="absolute top-1/2 -translate-y-1/4 left-0 right-0 w-full z-0 md:hidden flex"
       />
@@ -52,7 +52,7 @@ const Introduce = () => {
         </button>
       </div>
       <div className="relative z-10">
-        <img src="src/assets/images/introduce-img.png" alt="" />
+        <img src="src/assets_home/images/introduce-img.png" alt="" />
       </div>
     </div>
   );
