@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/virtual";
 
 import { Virtual } from "swiper/modules";
-import CommunityItem from "./CommunityItem";
+import CommunityItem from "./community-item";
 import { ArrowLeftIcon, ArrowRightIcon } from "../../assets/icons";
 
 const CommunityItems: CommunityItemType[] = [

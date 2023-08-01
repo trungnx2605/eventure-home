@@ -4,7 +4,7 @@ import "swiper/css/virtual";
 
 import { Virtual } from "swiper/modules";
 import { ArrowLeftIcon, ArrowRightIcon } from "../../assets/icons";
-import UpComingItem from "./UpComingItem";
+import UpComingItem from "./upComing-item";
 
 const UpComingItems = [
   {

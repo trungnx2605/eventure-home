@@ -1,12 +1,12 @@
-import Community from "../../components/Community";
-import Introduce from "../../components/Introduce";
-import Network from "../../components/Networking";
-import Features from "../../components/Features";
-import Footer from "../../layouts/Footer";
-import Header from "../../layouts/Header";
-import Event from "../../components/Event";
-import Sponsor from "../../components/Sponsor";
-import UpComing from "../../components/Upcoming";
+import Introduce from "../../components/introduce";
+import Network from "../../components/networking";
+import Features from "../../components/features";
+import Footer from "../../layouts/footer";
+import Header from "../../layouts/header";
+import Event from "../../components/event";
+import Sponsor from "../../components/sponsor";
+// import UpComing from "../../components/upcoming";
+// import Community from "../../components/community";
 
 const Home = () => {
   return (
@@ -16,8 +16,8 @@ const Home = () => {
       <Features />
       <Network />
       <Sponsor />
-      <UpComing />
-      <Community />
+      {/* <UpComing /> */}
+      {/* <Community /> */}
       <Event />
       <Footer />
     </div>
