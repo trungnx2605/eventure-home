@@ -5,62 +5,62 @@
 /* Font Poppins */
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Bold.ttf");
+  src: url("/assets_home/fonts/Poppins-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+  src: url("/assets_home/fonts/Poppins-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Medium.ttf");
+  src: url("/assets_home/fonts/Poppins-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Regular.ttf");
+  src: url("/assets_home/fonts/Poppins-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("./assets/fonts/Poppins-Light.ttf");
+  src: url("/assets_home/fonts/Poppins-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 /* Font Sora */
 @font-face {
   font-family: "Sora";
-  src: url("./assets/fonts/Sora-Bold.ttf");
+  src: url("/assets_home/fonts/Sora-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Sora";
-  src: url("./assets/fonts/Sora-SemiBold.ttf");
+  src: url("/assets_home/fonts/Sora-SemiBold.ttf");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Sora";
-  src: url("./assets/fonts/Sora-Medium.ttf");
+  src: url("/assets_home/fonts/Sora-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Sora";
-  src: url("./assets/fonts/Sora-Regular.ttf");
+  src: url("/assets_home/fonts/Sora-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Sora";
-  src: url("./assets/fonts/Sora-Light.ttf");
+  src: url("/assets_home/fonts/Sora-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }

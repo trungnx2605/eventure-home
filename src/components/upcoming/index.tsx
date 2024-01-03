@@ -3,17 +3,17 @@ import "swiper/css";
 import "swiper/css/virtual";
 
 import { Virtual } from "swiper/modules";
-import { ArrowLeftIcon, ArrowRightIcon } from "../../assets/icons";
+import { ArrowLeftIcon, ArrowRightIcon } from "../../default/icons";
 import UpComingItem from "./upComing-item";
 
 const UpComingItems = [
   {
-    img: "src/assets/images/upcoming.png",
+    img: "assets_home/images/upcoming.png",
     title: "InnovateX Summit",
     desc: "A transformative event uniting visionaries, innovators, and pioneers. Immerse in cutting-edge tech, insightful sessions, workshops, and networking. Ignite innovation, gain insights, and forge connections for success.",
   },
   {
-    img: "src/assets/images/upcoming.png",
+    img: "assets_home/images/upcoming.png",
     title: "Connect Electronic Festival",
     desc: "Where technology converges with innovation. Experience the latest advancements, engage in interactive demos, and connect with industry leaders in this dynamic networking event powered by Eventure.",
   },

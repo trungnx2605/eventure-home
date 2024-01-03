@@ -2,27 +2,27 @@ const Event = () => {
   return (
     <div className="flex flex-col w-full items-center relative mt-[-100px]">
       <img
-        src="src/assets/images/event-ellipse.png"
+        src="assets_home/images/event-ellipse.png"
         alt=""
         className="absolute top-1/2 translate-y-[-50%]"
       />
       <img
-        src="src/assets/images/event-gradient.png"
+        src="assets_home/images/event-gradient.png"
         alt=""
         className="hidden sm:flex"
       />
       <img
-        src="src/assets/images/event-gradient-mb.png"
+        src="assets_home/images/event-gradient-mb.png"
         alt=""
         className="sm:hidden w-full max-h-[706px]"
       />
       <img
-        src="src/assets/images/event-circle-color-left.png"
+        src="assets_home/images/event-circle-color-left.png"
         alt=""
         className="absolute left-[8%] top-1/4 -translate-y-1/4"
       />
       <img
-        src="src/assets/images/event-circle-color-right.png"
+        src="assets_home/images/event-circle-color-right.png"
         alt=""
         className="absolute right-[8%] top-1/2 -translate-y-1/2"
       />

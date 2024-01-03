@@ -20,7 +20,7 @@ const Footer = () => {
       <img
         width={160}
         height={45}
-        src="src/assets/images/logo-Footer.svg"
+        src="assets_home/images/logo-Footer.svg"
         alt="logo-Footer"
       />
       <div className="flex items-center justify-end">

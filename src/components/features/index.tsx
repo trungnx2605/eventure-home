@@ -12,7 +12,7 @@ const Features = () => {
       <div className="md:flex flex-col justify-center items-center hidden">
         <div className="relative w-full left-0 md:-top-4 lg:top-[-120px]">
           <img
-            src="src/assets/images/MacBookAir-pc.png"
+            src="assets_home/images/MacBookAir-pc.png"
             alt=""
             className="w-full"
           />
@@ -42,7 +42,7 @@ const Features = () => {
       <div className="w-full flex flex-col">
         <div className="md:hidden w-full m-auto mt-[-100px] sm:mt-[-200px] flex justify-center items-center">
           <img
-            src="src/assets/images/MacBookAir-mobile.png"
+            src="assets_home/images/MacBookAir-mobile.png"
             alt=""
             className="w-full"
           />
@@ -70,32 +70,32 @@ const Features = () => {
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-y-10 md:gap-y-0 w-full items-center px-5 md:px-16 relative lg:-mt-[170px]">
         <img
-          src="/src/assets/images/feature-ellipse.png"
+          src="assets_home/images/feature-ellipse.png"
           alt=""
           className="absolute left-0 top-0 hidden md:flex"
         />
         <img
-          src="/src/assets/images/feature-ellipse-mb.png"
+          src="assets_home/images/feature-ellipse-mb.png"
           alt=""
           className="absolute left-0 top-1/2 -translate-y-1/2 md:hidden"
         />
         <img
-          src="/src/assets/images/feature-gradient.png"
+          src="assets_home/images/feature-gradient.png"
           alt=""
           className="absolute left-0 top-0 z-0 max-h-[660px] hidden md:flex"
         />
         <img
-          src="/src/assets/images/feature-gradient-mb.png"
+          src="assets_home/images/feature-gradient-mb.png"
           alt=""
           className="absolute left-0 right-0 top-1/2 -translate-y-1/2 md:hidden opacity-30"
         />
         <img
-          src="/src/assets/images/feature-circle-color-left.png"
+          src="assets_home/images/feature-circle-color-left.png"
           alt=""
           className="absolute left-16 top-0 hidden md:flex"
         />
         <img
-          src="/src/assets/images/feature-circle-color-left-mb.png"
+          src="assets_home/images/feature-circle-color-left-mb.png"
           alt=""
           className="absolute md:hidden left-5 top-[43%] -translate-y-[43%]"
         />
@@ -114,12 +114,12 @@ const Features = () => {
               sessions by asking questions, answering polls, and chatting with
               other attendees.
             </span>
-            <img src="src/assets/images/Frame.png" alt="" />
+            <img src="assets_home/images/Frame.png" alt="" />
           </div>
         </div>
         <div className="flex-1 z-10 lg:ml-[-100px]">
           <img
-            src="src/assets/images/Group430.png"
+            src="assets_home/images/Group430.png"
             alt=""
             className="w-full max-h-[760px] object-contain"
           />

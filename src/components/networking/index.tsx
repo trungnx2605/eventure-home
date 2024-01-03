@@ -3,12 +3,12 @@ const Networking = () => {
     <div className=" ">
       <div className="flex flex-col md:relative">
         <img
-          src="src/assets/images/networking-bg.png"
+          src="assets_home/images/networking-bg.png"
           alt=""
           className="hidden md:flex max-h-[1014px] object-cover"
         />
         <img
-          src="src/assets/images/networking-bg-mb.png"
+          src="assets_home/images/networking-bg-mb.png"
           alt=""
           className="md:hidden xxs:my-[-150px] xs:my-[-200px] sm:my-[-300px]"
         />

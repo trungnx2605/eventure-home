@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CloseIcon, MenuIcon, UserIcon } from "../../assets/icons";
+import { CloseIcon, MenuIcon, UserIcon } from "../../default/icons";
 import { useState } from "react";
 import clsx from "clsx";
 
@@ -30,7 +30,7 @@ const Header = () => {
           className="flex items-center w-[144px] md:w-40 cursor-pointer"
         >
           <img
-            src="src/assets/images/logo-white.svg"
+            src="assets_home/images/logo-white.svg"
             alt="logo-white"
             className="object-contain min-w-full"
           />
@@ -51,11 +51,11 @@ const Header = () => {
         <button className="md:flex border border-primary-1 rounded-lg justify-center items-center hidden px-4 py-[9px] gap-x-2 whitespace-nowrap hover:opacity-80">
           <UserIcon />
           <p className="text-primary-3 eventure-button-1-semibold items-center">
-            Host Login
+            <a href="https://eventure.asia/signin">Host Login</a>
           </p>
         </button>
         <button className="md:flex hidden items-center bg-primary-1 rounded-lg px-4 py-3 text-[white] eventure-button-1-semibold whitespace-nowrap hover:opacity-80 ml-4">
-          Attend an Event
+          <a href="https://eventure.asia/signin">Attend an Event</a>
         </button>
         <div onClick={() => setShowMenuMobile(!showMenuMobile)}>
           {showMenuMobile ? (
